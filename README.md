@@ -1,5 +1,5 @@
 
-This project is a submission for the Tidal recruitment process
+# A Stack of cards
 
 ## Requirements
 
@@ -12,8 +12,8 @@ To install this project you have to download or clone it from this repository.
 
 The following command clones the project
 ```shell
-git clone https://github.com/qazsero/tidal-assignment-react-redux  tidal-assignment-react-redux
-cd tidal-assignment-react-redux
+git clone https://github.com/qazsero/Stack-of-cards-react-redux  stack-of-cards-react-redux
+cd stack-of-cards-react-redux
 ```
 
 After downloading a copy of the repo you need to install the packages it depends on

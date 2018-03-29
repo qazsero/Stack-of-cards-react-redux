@@ -8,7 +8,6 @@
   opacity: 1;
   transition: 1s;
   top: 0;
-  position:inherit;
 }
 
 .fade-leave {

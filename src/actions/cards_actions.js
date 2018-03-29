@@ -8,7 +8,7 @@ import {
 
 export const loadCards = () => {
   //We have to return an array of objects containing every possible combination
-  const suits = ['clubs','diamonds','hearts','spades']
+  const suits = ['clubs','spades','hearts','diamonds']
   const cvalues = [2,3,4,5,6,7,8,9,10,'jack','queen','king', 'ace']
   let deck = []
   let suitOrder = 0
