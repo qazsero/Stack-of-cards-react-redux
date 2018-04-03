@@ -23,8 +23,8 @@ class Deck extends Component {
       <div>
         <h2>DECK</h2>
         <div className="button-bar">
-          <button onClick={this.props.drawCardFromDeck}>Draw Card</button>
-          <button onClick={this.props.shuffleDeck}>Shuffle Deck</button>
+          <button className="btn" onClick={this.props.drawCardFromDeck}>Draw Card</button>
+          <button className="btn" onClick={this.props.shuffleDeck}>Shuffle Deck</button>
         </div>
         <div className="card-container">
           <CSSTransitionGroup transitionName="fade" transitionEnterTimeout={1000} transitionLeaveTimeout={1000}>

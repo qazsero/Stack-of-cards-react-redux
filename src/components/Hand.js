@@ -17,7 +17,7 @@ class Hand extends Component {
       <div >
         <h2>HAND</h2>
         <div className="button-bar">
-          <button onClick={this.props.sortHand}>Sort Hand</button>
+          <button className="btn" onClick={this.props.sortHand}>Sort Hand</button>
         </div>
         <div className="card-container">
           <CSSTransitionGroup transitionName="fade" transitionEnterTimeout={700} transitionLeaveTimeout={700}>
