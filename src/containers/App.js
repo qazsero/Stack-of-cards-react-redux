@@ -9,7 +9,7 @@ import '../App.css'
 import '../Transitions.css'
 
 
-class App extends Component {
+export class App extends Component {
 
 
   render() {
