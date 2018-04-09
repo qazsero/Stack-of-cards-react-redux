@@ -27,3 +27,7 @@ npm install
 #### `npm start`
 
 Open the front end application in a browser.
+
+#### `npm test`
+
+Execute the unit tests for the web application an its state
